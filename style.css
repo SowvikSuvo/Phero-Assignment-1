@@ -54,7 +54,7 @@ nav {
 }
 
 .btn-primary-stay:hover {
- background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
     box-shadow: 0 4px 10px 0 rgba(116, 79, 168, 0.75);
 }
 
@@ -81,7 +81,7 @@ nav {
     font-weight: bold;
 }
 
-/* action style */
+/* action-section style */
 
 .btn-primary-Launch {
     width: 229px;
@@ -95,7 +95,7 @@ nav {
 }
 
 .btn-primary-Launch:hover {
-     background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
     box-shadow: 0 4px 10px 0 rgba(229, 66, 10, 0.75);
 }
 
@@ -122,10 +122,7 @@ nav {
     font-size: 42px;
 }
 
-
-
-
-/* users section style */
+/* stats section style */
 
 .stats-container {
     background-color: #eaeaff;
@@ -196,7 +193,6 @@ nav {
 }
 
 .card {
-
     width: 360px;
     height: 230px;
     background-color: rgba(253, 254, 255, 1);
@@ -284,7 +280,7 @@ nav {
     width: 497px;
     height: 50px;
     border: 1px solid rgba(137, 135, 161, 0.462);
-    color: #75757590;
+    color: #757575;
     padding-left: 20px;
     border-radius: 5px;
     font-size: 18px;
@@ -320,9 +316,9 @@ nav {
 }
 
 .touch-botton:hover {
-   background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
     box-shadow: 0 4px 10px 0 rgba(83, 176, 57, 0.75);
-    
+
 }
 
 
@@ -364,15 +360,17 @@ nav {
     text-decoration: none;
     color: #8987A1;
 }
-.end a:hover{
-     background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+
+.end a:hover {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
 .footer h1 {
     color: rgba(78, 71, 255, 1);
     font-size: 100px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .footer p {
