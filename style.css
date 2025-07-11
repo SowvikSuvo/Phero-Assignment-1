@@ -230,12 +230,77 @@ nav {
     border-radius: 48px;
     margin-top: 20px;
 }
-.text-section h1{
+
+.text-section h1 {
     font-size: 50px;
     font-weight: bold;
     color: #000000;
 }
-.focus-container p{
+
+.focus-container p {
     font-size: 16px;
     color: rgba(64, 64, 64, 1);
+}
+
+/* form section style */
+.form-section {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 98px;
+    justify-content: space-between;
+    height: 632px;
+    border-radius: 10px;
+}
+
+.form label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 1900px;
+}
+
+.input-box {
+    width: 497px;
+    height: 50px;
+    border: 1px solid rgba(137, 135, 161, 0.462);
+    color: #75757590;
+    padding-left: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+.area {
+    width: 497px;
+    border: 1px solid rgba(137, 135, 161, 0.462);
+    color: #757575bd;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.form-title {
+    font-size: 80px;
+}
+.touch-botton{
+    width: 520px;
+    height: 48px;
+    background-color: rgb(78, 71, 255);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    align-items: end;
+    justify-content: space-between;
+}
+.form{
+    padding-top: 71px;
+    padding-bottom: 71px;
 }
