@@ -312,24 +312,34 @@ nav {
     margin-top: 14px;
     text-align: center;
     padding-top: 104px;
+    padding-right: 455px;
+    padding-bottom: 103px;
+    padding-left: 455px;
 
 }
 .footer ul li{
     list-style: none;
+
 }
 .end{
+    color: #8987A1;
     display: flex;
     align-items: center;
     gap: 20px;
     text-align: center;
-    margin-left: 519px;
+ 
+    font-size: 20px;
+    justify-content: center;
+
     
 }
 .footer h1{
     color: rgba(78, 71, 255, 1);
     font-size: 100px;
+    margin-bottom: 10px
 }
 .footer p{
-    color: ;
-    font-size: 16px;
+    color: #8987A1;
+    font-size: 20px;
+    margin-top: 10px;
 }
