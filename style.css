@@ -179,29 +179,63 @@ nav {
 }
 
 .card {
- 
+
     width: 360px;
     height: 230px;
     background-color: rgba(253, 254, 255, 1);
     border-radius: 10px;
     padding-top: 24px;
     padding-left: 24px;
-    
+
 }
-.card-description h1{
-    color:rgba(30, 30, 30, 1);
+
+.card-description h1 {
+    color: rgba(30, 30, 30, 1);
     font-size: 24px
 }
-.card-description p{
+
+.card-description p {
     font-size: 16px;
-  
+
 }
-.card-bottom h3{
+
+.card-bottom h3 {
     color: #757575;
     font-size: 16px;
     font-weight: 800;
 }
-.date{
+
+.date {
     color: #B3B3B3;
     font-weight: 500;
+}
+
+/* Focus section style */
+
+.focus-container {
+    margin-top: 137px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 151px;
+    margin-right: 149px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.focus-container img {
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.text-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.focus-container p{
+    font-size: 16px;
+    color: rgba(64, 64, 64, 1);
 }
