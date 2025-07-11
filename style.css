@@ -149,10 +149,14 @@ nav {
 
 /* card-section style */
 .rating-container {
-    margin-top: 137px;
+    margin-top: 13px;
+    margin-left: 151px;
+    margin-right: 149px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
-
-
 
 .card-bottom {
     display: flex;
@@ -168,18 +172,21 @@ nav {
 
 .rating-title {
     text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 137px;
+    margin-bottom: 50px;
 }
 
 .card {
-    border: 2px solid black;
+ 
     width: 360px;
     height: 230px;
     background-color: rgba(253, 254, 255, 1);
     border-radius: 10px;
     padding-top: 24px;
     padding-left: 24px;
-  
-
+    
 }
 .card-description h1{
     color:rgba(30, 30, 30, 1);
