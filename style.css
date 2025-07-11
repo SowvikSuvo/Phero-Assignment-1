@@ -260,7 +260,7 @@ nav {
     font-weight: 500;
     font-family: Arial;
     font-weight: bold;
-    padding-top: 1900px;
+
 }
 
 .input-box {
@@ -303,4 +303,33 @@ nav {
 .form{
     padding-top: 71px;
     padding-bottom: 71px;
+}
+/* footer section style */
+
+.footer{
+    background-color: rgba(255, 255, 255, 1);
+    height: 428px;
+    margin-top: 14px;
+    text-align: center;
+    padding-top: 104px;
+
+}
+.footer ul li{
+    list-style: none;
+}
+.end{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-left: 519px;
+    
+}
+.footer h1{
+    color: rgba(78, 71, 255, 1);
+    font-size: 100px;
+}
+.footer p{
+    color: ;
+    font-size: 16px;
 }
